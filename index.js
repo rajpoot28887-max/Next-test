@@ -641,7 +641,7 @@ const AUTH_DIR = './auth_info';
 // How long (ms) the chatbot stays auto-paused in a chat after the owner
 // personally sends a message there. Resets on every new owner message in
 // that chat; auto-resumes once this much time passes with no owner activity.
-const CHATBOT_PAUSE_MS = 5 * 60 * 1000; // 5 minutes
+const CHATBOT_PAUSE_MS = 30 * 1000; // 30 seconds
 const DATA_FILE = './data/bot_data.json';
 fs.ensureDirSync(AUTH_DIR);
 fs.ensureDirSync('./data');
